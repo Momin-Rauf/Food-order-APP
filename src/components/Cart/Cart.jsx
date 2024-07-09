@@ -40,9 +40,7 @@ const Cart  = (props) =>{
             {cartItems}
             <div className=" w-40 border-[1px] border-white rounded-2xl rounded-l-none relative right-4 bg-blue-700 text-white px-2 py-1 text-center" ><span>Total Amount: </span><span>{totalAmount}</span></div>
             <div className="flex flex-row justify-between mt-4" >
-                <button className="border-[1px] border-white bg-blue-700 text-white hover:bg-blue-900 rounded-2xl w-16 " >
-                    Order
-                </button>
+               
                 <button onClick={props.CartHide} className="border-[1px] border-white bg-blue-700 text-white hover:bg-blue-900 rounded-2xl w-16  " >
                     Close
                 </button>
